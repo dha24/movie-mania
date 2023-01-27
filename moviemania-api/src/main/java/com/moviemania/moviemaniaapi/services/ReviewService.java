@@ -1,5 +1,8 @@
-package com.moviemania.moviemaniaapi;
+package com.moviemania.moviemaniaapi.services;
 
+import com.moviemania.moviemaniaapi.models.Movie;
+import com.moviemania.moviemaniaapi.models.Review;
+import com.moviemania.moviemaniaapi.repositories.ReviewRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;

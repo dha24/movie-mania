@@ -1,5 +1,7 @@
-package com.moviemania.moviemaniaapi;
+package com.moviemania.moviemaniaapi.controllers;
 
+import com.moviemania.moviemaniaapi.models.Review;
+import com.moviemania.moviemaniaapi.services.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -7,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/api/v1/movies")
 public class ReviewController {

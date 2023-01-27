@@ -1,5 +1,7 @@
-package com.moviemania.moviemaniaapi;
+package com.moviemania.moviemaniaapi.services;
 
+import com.moviemania.moviemaniaapi.models.Movie;
+import com.moviemania.moviemaniaapi.repositories.MovieRepository;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

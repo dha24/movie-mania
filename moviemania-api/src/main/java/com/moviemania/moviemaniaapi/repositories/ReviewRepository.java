@@ -1,5 +1,6 @@
-package com.moviemania.moviemaniaapi;
+package com.moviemania.moviemaniaapi.repositories;
 
+import com.moviemania.moviemaniaapi.models.Review;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
